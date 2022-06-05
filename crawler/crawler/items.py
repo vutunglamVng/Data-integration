@@ -8,7 +8,27 @@
 import scrapy
 
 
-class CrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+class TGDDItem(scrapy.Item):
+    images_intro = scrapy.Field()
+    price = scrapy.Field()
+    title = scrapy.Field()
+    warranties = scrapy.Field()
+    promotions = scrapy.Field()
+    hot_line = scrapy.Field()
+    informations = scrapy.Field()
+    rating = scrapy.Field()
+    link_source = scrapy.Field()
+    pass
+
+
+class CPhonesItem(scrapy.Item):
+    images_intro = scrapy.Field()
+    price = scrapy.Field()
+    title = scrapy.Field()
+    warranties = scrapy.Field()
+    promotions = scrapy.Field()
+    hot_line = scrapy.Field()
+    informations = scrapy.Field()
+    rating = scrapy.Field()
+    link_source = scrapy.Field()
     pass
